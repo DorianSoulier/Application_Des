@@ -18,6 +18,72 @@
         android:layout_margin="20sp"/>
 
     <TextView
+        android:id="@+id/choixnbDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Choisissez le nombre de dés"
+        android:textSize="20dp"
+        android:layout_margin="10sp"/>
+
+
+    <RadioGroup
+        android:id="@+id/rgNbDes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rbdes1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginStart="10dp"
+            android:checked="true"
+            android:text="1" />
+
+        <RadioButton
+            android:id="@+id/rbdes2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginStart="10dp"
+            android:text="2" />
+
+        <RadioButton
+            android:id="@+id/rbdes3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginStart="10dp"
+            android:text="3" />
+
+        <RadioButton
+            android:id="@+id/rbdes4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginStart="10dp"
+            android:text="4" />
+
+        <RadioButton
+            android:id="@+id/rbdes5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:layout_marginStart="10dp"
+            android:text="5" />
+
+    </RadioGroup>
+
+
+
+
+
+
+
+
+
+    <TextView
         android:id="@+id/choixNbFaces"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -81,6 +147,12 @@
             android:text="20" />
 
     </RadioGroup>
+
+
+
+
+
+
 
     <Button
         android:id="@+id/btLancer"

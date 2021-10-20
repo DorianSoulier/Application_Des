@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">Evaluation_Des</string>
-    <string name="lanceur_de_des">Lanceur de dés</string>
+    <string name="lanceur_de_des">Simulation de lancer de dé</string>
     <string name="choisissez_le_nombre_de_faces">Choisissez le nombre de faces</string>
 </resources>

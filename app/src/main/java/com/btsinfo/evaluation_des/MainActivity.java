@@ -49,4 +49,5 @@ public class MainActivity extends AppCompatActivity {
         intent.putExtra("nbDes", rBtDes.getText().toString());
         startActivity(intent);
     }
+
 }
